@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		<meta name="author" content="Joshua Wehner"/>
+		<meta name="description" content="My Portfolio site"/>
+		<meta name="keywords" content="about me, html, css, portfolio, resume, desktop support, storage and backup, server monitoring, unix servers, oracle weblogic, information technology"/>
+		<meta property="og:title" content="Joshua Wehner's Portfolio"/>
+		<meta property="og.type" content="website"/>
+		<meta property="og:image" content="https://avatars0.githubusercontent.com/u/10519930?v=3&u=57fbee0dbe8adfadf136765f4c5a528a8fe06d00&s=140"/>
+		<meta property="og:url" content="http://jwehner.github.io"/>
+		<meta property="description" content="Portfolio website of Joshua Wehner."/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+		
+		<!--Additional Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	 </head>
+     <body> 
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work Experience</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><div class="socialmedia">
+							<a href="https://www.linkedin.com/pub/joshua-wehner/20/53/980" target="_blank"><img src="img/linkedin.png" data-tooltip-text="LinkedIn" class="linkedin"></a>
+							<a href="https://www.facebook.com/joshua.wehner.10" target="_blank"><img src="img/facebook.png" data-tooltip-text="Facebook" class="facebook"></a>
+							<a href="https://twitter.com/Soundtech89" target="_blank"><img src="img/twitter.png" data-tooltip-text="Twitter" class="twitter"></a>
+						</div></li>
+					</ul>
+				</div>
+			</div>
+		</nav>		
+	<div class="body-container">
+		<div class="header">  
+			<h1 class="title"> Joshua Wehner</h1>
+		</div>
+			<div class="about" id="about">
+				<h2 class="subtitle"><br/>
+				<br/>
+				- About me -</h2>
+				<p class="intro">My name is Josh Wehner. I got married last July to my beautiful wife, Marissa. I have been going to college since 2007, but I never have considered myself to be a true college student as I have always worked full time and gone to school part time. </p>
+				<p class="interests"> When not working or doing school work I enjoy playing video games and playing board games. I also enjoy fishing, disc golf, and vacationing in the Upper Peninsula.</p>
+				<img src="img/mypic.png" data-tooltip-text="Josh and Marissa"/>
+			</div>
+			<div class="work-experience" id="work">
+				<h3 class="header3"><br/>
+				<br/>
+				<br/>
+				- My Work Experience -</h3>
+				<p class="work-experience-details">I work for a car finance company and my job title is a Middleware Administrator. I started working in IT a little over 5 years ago. I have an Associate's Degree from Monroe County Community College and I am almost done with my Bachelor's Degree from UT. Although I have only been working in IT for a few years I have experience in the following:</p>
+				<ul class="work-experience-list">
+					<li>Desktop Support</li>
+					<li>Storage and Backups</li>
+					<li>Server Monitoring</li>
+					<li>Unix Servers</li>
+					<li>Oracle WebLogic</li>
+				</ul>
+			</div>
+	</div>
+		<div class="contact" id="contact">
+		<h4 class="header4"><br/>
+		<br/>
+		- Contact Me -</h4>
+			<div id="form-main">
+				<div id="form-div">
+					<form class="contact-form" id="form" style="display: none;">
+						<p class="name">
+							<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
+						</p>
+						<p class="email">
+							<input name="email" type="text" class="contact-input" id="email" placeholder="Email" />
+						</p>
+						<p class="text">
+							<textarea name="text" class="contact-input" id="comment" placeholder="Comment"></textarea>
+						</p>
+						<div class="submit">
+							<input type="submit" value="SEND" id="button-orange"/>
+						</div>
+					</form>
+				<div class="contact-toggle-button">
+					<button class="btn btn-default" onclick="toggle('form');">Contact Me</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<!--my function.js location-->
+	<script src="js/functions.js"></script>
+	
+	<!--This is for the google analytics-->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-61814137-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+	</body>
+</html>
